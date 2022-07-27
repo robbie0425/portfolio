@@ -21,7 +21,7 @@ function Contact() {
             <span>Message</span>
           </div>
           <button className="btn">
-            <i class="fa-solid fa-paper-plane"></i>Send
+            <i className="fa-solid fa-paper-plane"></i>Send
           </button>
         </div>
         <div className="title2">﹤/contact﹥</div>

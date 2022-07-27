@@ -11,7 +11,7 @@ function Experience() {
             <div className="timeline-content">
               <div className="year">2020</div>
               <div className="icon">
-                <i class="fa-solid fa-bed"></i>
+                <i className="fa-solid fa-bed"></i>
               </div>
               <div className="content2 reveal">
                 <h1 className="topic">
@@ -31,7 +31,7 @@ function Experience() {
             <div className="timeline-content">
               <div className="year">2021</div>
               <div className="icon">
-                <i class="fa-solid fa-briefcase"></i>
+                <i className="fa-solid fa-briefcase"></i>
               </div>
               <div className="content2 reveal2">
                 <h1 className="topic">
@@ -51,7 +51,7 @@ function Experience() {
             <div className="timeline-content">
               <div className="year">2022</div>
               <div className="icon">
-                <i class="fa-solid fa-graduation-cap"></i>
+                <i className="fa-solid fa-graduation-cap"></i>
               </div>
               <div className="content2 reveal">
                 <h1 className="topic">Now</h1>

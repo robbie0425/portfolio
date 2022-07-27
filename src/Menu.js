@@ -2,13 +2,6 @@ import "./Menu.css";
 import React from "react";
 
 function Menu() {
-  const menu = document.getElementById("menu");
-  const menuBG1 = document.getElementById("menuBG1");
-  const menuBG2 = document.getElementById("menuBG2");
-  const menuBG3 = document.getElementById("menuBG3");
-  const menuList = document.getElementById("menuList");
-  const menuPage = document.getElementById("menuPage");
-
   function stopScroll(e) {
     e.preventDefault();
     e.stopPropagation();
@@ -16,6 +9,12 @@ function Menu() {
   }
 
   function link1() {
+    const menu = document.getElementById("menu");
+    const menuBG1 = document.getElementById("menuBG1");
+    const menuBG2 = document.getElementById("menuBG2");
+    const menuBG3 = document.getElementById("menuBG3");
+    const menuList = document.getElementById("menuList");
+    const menuPage = document.getElementById("menuPage");
     menu.classList.remove("open");
     menuBG1.classList.remove("open");
     menuBG2.classList.remove("open");
@@ -23,9 +22,14 @@ function Menu() {
     menuList.classList.remove("open");
     menuPage.removeEventListener("wheel", stopScroll);
     window.location.hash = "home";
-    // document.getElementById("header").scrollIntoView({ behavior: "smooth" });
   }
   function link2() {
+    const menu = document.getElementById("menu");
+    const menuBG1 = document.getElementById("menuBG1");
+    const menuBG2 = document.getElementById("menuBG2");
+    const menuBG3 = document.getElementById("menuBG3");
+    const menuList = document.getElementById("menuList");
+    const menuPage = document.getElementById("menuPage");
     menu.classList.remove("open");
     menuBG1.classList.remove("open");
     menuBG2.classList.remove("open");
@@ -35,6 +39,12 @@ function Menu() {
     window.location.hash = "projects";
   }
   function link3() {
+    const menu = document.getElementById("menu");
+    const menuBG1 = document.getElementById("menuBG1");
+    const menuBG2 = document.getElementById("menuBG2");
+    const menuBG3 = document.getElementById("menuBG3");
+    const menuList = document.getElementById("menuList");
+    const menuPage = document.getElementById("menuPage");
     menu.classList.remove("open");
     menuBG1.classList.remove("open");
     menuBG2.classList.remove("open");
@@ -44,6 +54,12 @@ function Menu() {
     window.location.hash = "about";
   }
   function link4() {
+    const menu = document.getElementById("menu");
+    const menuBG1 = document.getElementById("menuBG1");
+    const menuBG2 = document.getElementById("menuBG2");
+    const menuBG3 = document.getElementById("menuBG3");
+    const menuList = document.getElementById("menuList");
+    const menuPage = document.getElementById("menuPage");
     menu.classList.remove("open");
     menuBG1.classList.remove("open");
     menuBG2.classList.remove("open");
@@ -53,6 +69,12 @@ function Menu() {
     window.location.hash = "experience";
   }
   function link5() {
+    const menu = document.getElementById("menu");
+    const menuBG1 = document.getElementById("menuBG1");
+    const menuBG2 = document.getElementById("menuBG2");
+    const menuBG3 = document.getElementById("menuBG3");
+    const menuList = document.getElementById("menuList");
+    const menuPage = document.getElementById("menuPage");
     menu.classList.remove("open");
     menuBG1.classList.remove("open");
     menuBG2.classList.remove("open");

@@ -9,7 +9,7 @@ function Projects() {
         <div className="box-list">
           <div className="box reveal">
             <div className="icon1">
-              <i class="fa-solid fa-bed"></i>
+              <i className="fa-solid fa-bed"></i>
             </div>
             <div className="text">
               <h1>Bedder</h1>
@@ -18,7 +18,7 @@ function Projects() {
           </div>
           <div className="box reveal">
             <div className="icon1">
-              <i class="fa-brands fa-discord"></i>
+              <i className="fa-brands fa-discord"></i>
             </div>
             <div className="text">
               <h1>Discord Bot</h1>
@@ -27,7 +27,7 @@ function Projects() {
           </div>
           <div className="box reveal">
             <div className="icon1">
-              <i class="fa-brands fa-line"></i>
+              <i className="fa-brands fa-line"></i>
             </div>
             <div className="text">
               <h1>Line Bot</h1>
@@ -36,7 +36,7 @@ function Projects() {
           </div>
           <div className="box reveal">
             <div className="icon1">
-              <i class="fa-solid fa-cart-shopping"></i>
+              <i className="fa-solid fa-cart-shopping"></i>
             </div>
             <div className="text">
               <h1>Shopping Website</h1>
@@ -45,7 +45,7 @@ function Projects() {
           </div>
           <div className="box reveal">
             <div className="icon1">
-              <i class="fa-brands fa-twitch"></i>
+              <i className="fa-brands fa-twitch"></i>
             </div>
             <div className="text">
               <h1>Twitch Redeem</h1>
@@ -54,7 +54,7 @@ function Projects() {
           </div>
           <div className="box reveal">
             <div className="icon1">
-              <i class="fa-solid fa-person"></i>
+              <i className="fa-solid fa-person"></i>
             </div>
             <div className="text">
               <h1>Personal Portfolio</h1>
