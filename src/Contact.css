@@ -1,0 +1,122 @@
+.contact{
+  background-color: #212121;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  position: relative;
+  left: -35%;
+  top: -5%;
+  font-size: calc(24px + 2vmin);
+  color: #fec397;
+}
+
+.title2 {
+  position: relative;
+  left: -35%;
+  top: 5%;
+  font-size: calc(24px + 2vmin);
+  color: #fec397;
+}
+
+.container-co{
+  width: 70%;
+  height: auto;
+  position: relative;
+  padding: 1rem;
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 1rem;
+  border: 0.1rem solid rgba(255, 255, 255, 0.2);
+  box-shadow: rgba(0, 0, 0, 0.5);
+}
+
+.inputbox{
+  position: relative;
+  width: 70%;
+  margin-top: 1%;
+}
+
+.inputbox input{
+  width: 100%;
+  padding: 1rem;
+  border: 0.1rem solid white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: rgba(255, 255, 255, 0.1);
+  outline: none;
+  color: white;
+  font-size: 1rem;
+}
+
+.inputbox textarea {
+  width: 100%;
+  padding: 1rem;
+  border: 0.1rem solid white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: rgba(255, 255, 255, 0.1);
+  outline: none;
+  color: white;
+  font-size: 1rem;
+}
+
+.inputbox input:valid,
+.inputbox input:focus {
+  border: 0.1rem solid #fec397;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.inputbox textarea:valid,
+.inputbox textarea:focus {
+  border: 0.1rem solid #fec397;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.inputbox span{
+  position: absolute;
+  top: 1rem;
+  padding-left: 1rem;
+  pointer-events: none;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.5);
+  transition: 0.5s all ease;;
+}
+
+.inputbox input:valid ~span,
+.inputbox input:focus ~span{
+  color: #fec397;
+  font-size: 0.8rem;
+  transform:  translateY(-1rem);
+}
+
+.inputbox textarea:valid~span,
+.inputbox textarea:focus~span {
+  color: #fec397;
+  font-size: 0.8rem;
+  transform: translateY(-1rem);
+}
+
+.btn{
+  width: 10%;
+  height: 10%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  background-color: #fec397;
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+}

@@ -1,0 +1,24 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 1920px;
+  margin: 0px auto;
+}
+
+::-webkit-scrollbar{
+  width: 0.5em;
+}
+
+::-webkit-scrollbar-track {
+  background: #212121;
+  margin-block: 0.5em;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #fec397;
+  border-radius: 100vw;
+  border: 0.1em solid #9f7a61;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d28a7c;
+}
