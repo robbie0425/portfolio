@@ -43,6 +43,30 @@ function App() {
         }
       }
     }
+
+    var svgReveal = document.querySelectorAll(".svgReveal");
+    // var svgRevealID = document.getElementById("svgRevealID");
+    var svgRevealID = document.querySelectorAll(`[id="svgRevealID"]`);
+
+    if (svgReveal) {
+      for (var k = 0; k < svgReveal.length; k++) {
+        var windowHeight3 = window.innerHeight;
+        var elementTop3 = svgReveal[k].getBoundingClientRect().top;
+        var elementVisible3 = 150;
+
+        let strokeHeight = parseInt(
+          windowHeight3 - elementVisible3 - elementTop3
+        );
+
+        for (var l = 0; l < 300; l++) {
+          if (l === strokeHeight) {
+            if (1000 - l * 4 > 0) {
+              svgRevealID[k].style.strokeDashoffset = 1000 - l * 4;
+            }
+          }
+        }
+      }
+    }
   }
   React.useEffect(() => {
     window.addEventListener("scroll", reveal);

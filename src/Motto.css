@@ -8,3 +8,75 @@
   align-items: center;
   font-size: calc(24px + 2vmin);
 }
+
+.motto-box{
+  position: relative;
+  width: 50%;
+  height: 150px;
+  transition: 1s all ease;
+}
+
+.motto-box.reveal.active {
+  width: 55%;
+}
+
+.motto-box2 {
+  position: relative;
+  width: 70%;
+  height: 150px;
+  transition: 1s all ease;
+}
+
+.motto-box2.reveal.active {
+  width: 75%;
+}
+
+.motto-box3 {
+  position: relative;
+  width: auto;
+  height: 50px;
+  transition: 1s all ease;
+  opacity: 0;
+  z-index: 1;
+}
+
+.motto-box3.reveal.active {
+  opacity: 100;
+}
+
+.motto-word{
+  z-index: 1;
+  padding: 0.5rem;
+  background-color: #212121;
+}
+.word1{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.word2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.plus {
+  position: absolute;
+}
+
+.minus {
+  position: absolute;
+}
+
+.times {
+  position: absolute;
+}
+
+.divide {
+  position: absolute;
+}
+
+.svgReveal{
+  stroke-dashoffset: 1140.0001220703125;
+  stroke-dasharray: 1140.0001220703125;
+}
