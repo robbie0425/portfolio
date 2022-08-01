@@ -25,7 +25,7 @@
 }
 
 .container-co{
-  width: 70%;
+  width: 60%;
   height: auto;
   position: relative;
   padding: 1rem;
@@ -38,7 +38,7 @@
 
 .inputbox{
   position: relative;
-  width: 70%;
+  width: 90%;
   margin-top: 1%;
 }
 
@@ -112,11 +112,83 @@
   width: 10%;
   height: 10%;
   margin-top: 2%;
-  margin-bottom: 3%;
+  /* margin-bottom: 3%; */
   background-color: #fec397;
-  color: white;
+  color: #212121;
   border: none;
   border-radius: 1rem;
   cursor: pointer;
   font-weight: bold;
+  transition: all 1s ease-in-out;
+  position: relative;
+  transition: 0.5s;
+  transition-delay: 1s;
+  overflow: hidden;
+}
+
+.btn.active {
+  margin-top: 2%;
+  /* margin-bottom: 2%; */
+  width: 50%;
+  height: 2%;
+  animation: btnWidth 0.5s linear forwards;
+  animation-delay: 4s;
+}
+
+@keyframes btnWidth {
+  0% {
+      width: 50%;
+      height: 10%;
+  }
+  100% {
+      width: 10%;
+      height: 10%;
+  }
+}
+
+.btn.active::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #d28a7c;
+  width: 0%;
+  height: 100%;
+  animation: progressBar 8s linear forwards;
+  animation-delay: 1s;
+}
+
+@keyframes progressBar {
+  0%
+  {
+    width: 0%;
+    height: 100%;
+  }
+  30%,95%
+  {
+    width: 100%;
+    height: 100%;
+  }
+  100% 
+  {
+    width: 100%;
+    height: 0%;
+  }
+}
+
+.send{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn.active .send {
+  transform: translate(-50%, 150%);
+}
+
+.sendText {
+  padding-left: 10%;
 }

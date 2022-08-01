@@ -67,8 +67,9 @@
 
 .icon1 {
   position: absolute;
-  left: 5%;
+  left: 4%;
   top: 30%;
+  width: 50px;
   font-size: 2rem;
 }
 

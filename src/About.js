@@ -56,9 +56,9 @@ function About() {
           </div>
           <div className="skills tagcloud"></div>
         </div>
-        <button className="btn">
+        {/* <button className="btn">
           <i className="fa-solid fa-cloud-arrow-down"></i>Download
-        </button>
+        </button> */}
         <div className="title2">﹤/about﹥</div>
       </section>
     </div>
