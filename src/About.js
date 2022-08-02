@@ -4,7 +4,7 @@ import TagCloud from "TagCloud";
 
 function About() {
   React.useEffect(() => {
-    const container = ".tagcloud";
+    const container = document.querySelector(".tagcloud");
     const texts = [
       "Html",
       "Css",
