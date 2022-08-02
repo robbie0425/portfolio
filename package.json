@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "homepage": "https://robbie0425.github.io/portfolio",
   "private": true,
+  "typings": "./global.d.ts",
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@testing-library/jest-dom": "^5.16.4",
