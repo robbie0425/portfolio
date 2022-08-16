@@ -25,7 +25,7 @@ function About() {
       "express",
     ];
     const options = {
-      radius: 300,
+      radius: 200,
     };
     return () => {
       TagCloud(container, texts, options);

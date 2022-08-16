@@ -9,11 +9,23 @@
   font-size: calc(24px + 2vmin);
 }
 
+@media (max-width: 768px) {
+  .motto {
+    font-size: calc(24px + 1vmin);
+  }
+}
+
 .motto-box{
   position: relative;
   width: 50%;
   height: 150px;
   transition: 1s all ease;
+}
+
+@media (max-width: 768px) {
+  .motto-box {
+    height: 180px;
+  }
 }
 
 .motto-box.reveal.active {
@@ -25,6 +37,12 @@
   width: 70%;
   height: 150px;
   transition: 1s all ease;
+}
+
+@media (max-width: 768px) {
+  .motto-box2 {
+    height: 180px;
+  }
 }
 
 .motto-box2.reveal.active {

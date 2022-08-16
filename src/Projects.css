@@ -77,6 +77,12 @@
   padding-left: 10%;
 }
 
+@media (max-width: 768px) {
+  .text {
+    padding-left: 20%;
+  }
+}
+
 .box-list .reveal {
   position: relative;
   transform: translateY(90px);

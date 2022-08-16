@@ -16,12 +16,24 @@
   color: #fec397;
 }
 
+@media (max-width: 768px) {
+  .title {
+    left: -25%;
+  }
+}
+
 .title2 {
   position: relative;
   left: -35%;
   top: 5%;
   font-size: calc(24px + 2vmin);
   color: #fec397;
+}
+
+@media (max-width: 768px) {
+  .title2 {
+    left: -25%;
+  }
 }
 
 .container-co{
@@ -34,6 +46,12 @@
   border-radius: 1rem;
   border: 0.1rem solid rgba(255, 255, 255, 0.2);
   box-shadow: rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+  .container-co h1 {
+    font-size: calc(14px + 1vmin);
+  }
 }
 
 .inputbox{
@@ -124,6 +142,13 @@
   transition: 0.5s;
   transition-delay: 1s;
   overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .btn {
+    width: 20%;
+    height: 10%;
+  }
 }
 
 .btn.active {

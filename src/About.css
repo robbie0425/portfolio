@@ -8,6 +8,12 @@
   flex-direction: column;
 }
 
+@media (max-width: 768px) {
+  .about {
+    height: 150vh;
+  }
+}
+
 .title {
   position: relative;
   left: -35%;
@@ -32,6 +38,12 @@
   align-items: center;
 }
 
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
 .detail{
   position: relative;
   width: 50%;
@@ -39,20 +51,30 @@
 
 .text1{
   color: #fec397;
+  font-size: calc(12px + 1vmin);
 }
 
 .text2 {
   color: #d28a7c;
+  font-size: calc(12px + 1vmin);
 }
 
 .text3 {
   color: #fec397;
+  font-size: calc(12px + 1vmin);
 }
 
 .skills{
   width: 50%;
   padding-left: 10%;
   color: #fec397;
+}
+
+@media (max-width: 768px) {
+  .skills {
+    width: 100%;
+    padding-left: 0;
+  }
 }
 
 .detail .reveal {
